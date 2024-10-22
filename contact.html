@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Ziegenbalg's Autobiography</title>
+    <link rel="stylesheet" href="styles2.css"> <!-- Link to external CSS file -->
+    <style>
+        .content {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="test3.html">Home</a></li>
+                <li><a href="abouttest.html">About</a></li>
+                <li><a href="timeline.html">Timeline</a></li>
+                <li><a href="gallerytest.html">Gallery</a></li>
+                <li><a href="gallerytest.html">Legacy</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="content">
+        <p>Have any questions or feedback? Feel free to reach out to us by filling out the form below. We'd love to hear from you!</p>
+        <p>If you have any inquiries or just want to drop us a message, please fill out the form and we'll get back to you as soon as possible.</p>
+    </div>
+    <form action="process_form.php" method="post" class="contact-form">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
